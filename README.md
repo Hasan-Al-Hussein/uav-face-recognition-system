@@ -2,7 +2,9 @@
 
 Real-time UAV-based face recognition platform using embedded AI on NVIDIA Jetson Orin Nano.
 
-![Demo Booth](images/demo_booth.jpg)
+<p align="center">
+  <img src="images/demo_booth.jpg" width="1000"/>
+</p>
 
 ---
 
@@ -25,25 +27,59 @@ All AI inference runs directly onboard the UAV without cloud dependency.
 
 ---
 
-# Live Demonstration
+# Demo Videos
+
+## Real-Time Drone Face Detection
+
+[![Watch the demo](https://img.youtube.com/vi/_6pe3W24RDw/maxresdefault.jpg)](https://youtu.be/_6pe3W24RDw?si=Cl7_Z-nmFUFf8IxO)
+
+---
+
+## User Interface Demonstration
+
+[![Watch the UI demo](https://img.youtube.com/vi/1MUbnvdHDAI/maxresdefault.jpg)](https://youtu.be/1MUbnvdHDAI?si=b8AuqsP6veV_q9dv)
+
+---
+
+# Live System Demonstration
 
 ## UAV Hardware Integration
 
-![Live System](images/live_system_demo.jpg)
+<p align="center">
+  <img src="images/live_system_demo.jpg" width="1000"/>
+</p>
 
 ---
 
 ## Project Poster
 
-![Project Poster](images/project_poster.jpg)
+<p align="center">
+  <img src="images/project_poster.jpg" width="1000"/>
+</p>
 
 ---
 
 # System Architecture
 
 <p align="center">
-  <img src="images/system_architecture.png" width="900"/>
+  <img src="images/system_architecture.png" width="1000"/>
 </p>
+
+---
+
+# AI Pipeline
+
+<p align="center">
+  <img src="images/ai_pipeline.png" width="1000"/>
+</p>
+
+The onboard AI pipeline consists of:
+
+1. Face Detection using SCRFD
+2. Face Tracking
+3. Face Alignment
+4. ArcFace Embedding Extraction
+5. Cosine Similarity Matching
 
 ---
 
@@ -54,20 +90,6 @@ All AI inference runs directly onboard the UAV without cloud dependency.
 - Pixhawk 6C
 - ELP 16MP USB Camera
 - LiPo Battery Power System
-
----
-
-# AI Pipeline
-
-<p align="center">
-  <img src="images/ai_pipeline.png" width="900"/>
-</p>
-
-1. Face Detection using SCRFD
-2. Face Tracking
-3. Face Alignment
-4. ArcFace Embedding Extraction
-5. Cosine Similarity Matching
 
 ---
 
