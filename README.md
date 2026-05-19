@@ -59,6 +59,10 @@ All AI inference runs directly onboard the UAV without cloud dependency.
 
 # AI Pipeline
 
+<p align="center">
+  <img src="images/ai_pipeline.png" width="900"/>
+</p>
+
 1. Face Detection using SCRFD
 2. Face Tracking
 3. Face Alignment
