@@ -41,7 +41,9 @@ All AI inference runs directly onboard the UAV without cloud dependency.
 
 # System Architecture
 
-![System Architecture](images/system_architecture.png)
+<p align="center">
+  <img src="images/system_architecture.png" width="900"/>
+</p>
 
 ---
 
