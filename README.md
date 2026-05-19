@@ -2,6 +2,8 @@
 
 Real-time UAV-based face recognition platform using embedded AI on NVIDIA Jetson Orin Nano.
 
+![Demo Booth](images/demo_booth.jpg)
+
 ---
 
 # Overview
@@ -9,6 +11,7 @@ Real-time UAV-based face recognition platform using embedded AI on NVIDIA Jetson
 This project implements a fully onboard real-time face recognition system deployed on a UAV platform for indoor and outdoor environments.
 
 The system integrates:
+
 - SCRFD face detection
 - ArcFace face recognition
 - Real-time target tracking
@@ -19,6 +22,20 @@ The system integrates:
 - UAV hardware integration
 
 All AI inference runs directly onboard the UAV without cloud dependency.
+
+---
+
+# Live Demonstration
+
+## UAV Hardware Integration
+
+![Live System](images/live_system_demo.jpg)
+
+---
+
+## Project Poster
+
+![Project Poster](images/project_poster.jpg)
 
 ---
 
@@ -62,16 +79,21 @@ All AI inference runs directly onboard the UAV without cloud dependency.
 
 # Results
 
-- Achieved 35-50 FPS on Jetson Orin Nano
-- Successful onboard UAV deployment
-- Stable real-time face recognition during flight
-- Fully onboard processing without cloud services
+| Metric | Result |
+|---|---|
+| FPS Performance | 35-50 FPS |
+| AI Inference | Fully onboard |
+| Processing Platform | Jetson Orin Nano |
+| Detection Pipeline | SCRFD + ArcFace |
+| Flight Mode | Manual stabilized flight |
+| Privacy Features | Face blurring supported |
 
 ---
 
 # Technologies Used
 
 ## AI & Vision
+
 - Python
 - OpenCV
 - PyTorch
@@ -79,12 +101,14 @@ All AI inference runs directly onboard the UAV without cloud dependency.
 - ArcFace
 
 ## Embedded & Systems
+
 - Jetson Orin Nano
 - CUDA
 - TensorRT
 - Linux
 
 ## UAV Platform
+
 - Pixhawk
 - MAVLink
 - QGroundControl
